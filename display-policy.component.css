@@ -1,0 +1,110 @@
+
+#bordering
+{
+border-right:1px solid  #008CBA;
+}
+
+
+.button {
+ border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;}
+
+.button2 {background-color: #008CBA;} /* Blue */
+
+.card{ 
+    padding: 5%;
+    position: relative;
+    margin: 5em;
+    background-color: rgba(225, 215, 215, 0.171);
+ }
+ 
+ body{
+     padding: 2%;
+ }
+ h1{
+     color: #FFA500;
+     font-weight: 400;
+ }
+ #cost-card{
+     text-align: center;
+     background-color: #003780;
+ }
+ #rowspan{
+     padding: 30px;
+     width: 35%;
+ }
+.shadow-lg{
+    background-color: #003780;
+    padding: 20%;
+    
+}
+
+#h1{
+    color: aqua;
+    font-weight: 400;
+    font-size: 50px;
+}
+h2,h4{
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+}
+p{
+    color: white;
+}
+
+.btn{
+    background-color: #FFA500;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: larger;
+    color: white;
+}
+.btn:hover{
+    background-color: #FFA500;
+}
+h1,h2,h3{
+    font-weight: lighter;
+}
+ td{
+     font-size: 15px;
+     padding: auto;
+     font-weight: 450;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .text-bold{
+    color: #003780;
+    font-weight: 500;
+
+
+ }
+ 
+
+ .form-control{
+     font-size: 40px;
+ }
+
+ .editpolicy
+ {
+    color:black;
+    font-family:'Arial Black';
+ }
+ 
+ .bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: black; 
+    font-size: 25px;
+}
+
+.bootstrap-iso form button, .bootstrap-iso form button:hover {
+    color: white !important;
+} 
+

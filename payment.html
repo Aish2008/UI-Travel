@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Payment</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
+
+<!-- Inline CSS based on choices in "Settings" tab -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+<link rel="stylesheet" href="display-policy.component.css">
+</head>
+<body>
+<div class="card"> 
+    <div class="shadow-lg p-3 mb-5 bg-white rounded">
+      <br>
+              <div id="main">
+                <div id="left" class="element">
+                  <div class="checkout-panel">
+                      <div class="payment-method">
+                        <label for="card" class="method card">
+                          <h1>Payment Info</h1>
+                   
+                          <div class="radio-input">
+                            <table class="tab">
+                              <tr>
+                              <td colspan="2"><center><img src="35-351793_credit-or-debit-card-mastercard-logo-visa-card.png"  height=100 width="250"></img></center></td>
+                              <td colspan="2" class="special"><center><img src="images.png" height=70 width="240"  ></img></td></center>
+                                </tr>
+                                <tr>
+                                  <td colspan="2"><center><input id="card" type="radio" name="payment" checked>
+                                    Pay with Credit Card</center></td>
+                                    <td colspan="2"><center>
+                                      <input id="paypal" type="radio" name="payment">
+                                      Pay with PayPal</center>
+                                    </td>
+                                </tr>
+                            <tr>
+                             <td colspan="2"><label for="date"><br><strong>Card Holder's Name</strong></label></td>
+                             
+                            </td>
+                            </tr>
+                             <tr>
+                              <td colspan="2"><input type="text" value="Alice Smith"  id="cardholder" size=40 placeholder="As it appears on your card" disabled/></td>
+                            </tr>
+                           
+                            <tr>
+                              <td colspan="2"><label for="date"><br><strong>Card  Number</strong></label></td> 
+                             </tr>
+                              <tr>
+                               <td colspan="2"><input type="text" value="XXXX-XXXX-XXXX-1234" id="cardholder" size="40" placeholder="16 digit number on your card" disabled/></td>
+                               <td  style="text-align: right; font-size: 20px;"><strong>Amount :<font color="red">$925</font></strong>
+
+                             </tr>
+                             
+                             <tr>
+                              <td><label for="date"><br><strong>Validity</strong></label></td>
+                              <td><label for="verification"><br><strong>CVV/ CVC *</strong></label></td>
+                              <td colspan="2" rowspan="2" ><br>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                                <button class="button button2" style="object-fit:cover;" >Pay</button></td>
+                               </tr>
+                               <tr>
+                               <td><input type="text" size="17" id="date" placeholder="MM,YY" value="10/2025" disabled></td></td>
+                               <td><input type="password" size="17" id="verification"/></td>
+                               </tr> 
+                                
+                              <tr>
+                                <td colspan="2"><input type="checkbox" id="vehicle1" checked >
+                                  <label for="vehicle1" style="font-size: 12px;"><br>Billing address same as mailing address</label></td>
+                              </tr>  
+                          
+                          </div>
+                        </label></div>
+                            <div>
+                              
+                            </div>
+                          </div>
+                   
+                        </div>
+                        
+                      </div>
+                    </div>
+                   <br>
+                    
+                    <br>
+                   
+                  </div>
+                </td>
+                <tr><td></td></tr>
+      
+             </div>
+             
+       
+</body>
+</html>
